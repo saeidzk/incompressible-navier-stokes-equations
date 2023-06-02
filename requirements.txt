@@ -1,0 +1,6 @@
+numpy
+pytest
+dask
+futures3
+matplotlib
+tqdm
