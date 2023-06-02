@@ -1,7 +1,0 @@
-before_script:
-  - pip install -r requirements.txt
-build first-one:
-    image: python:3.9-slim-buster #for the container to have python and pip tools
-    script:
-      - echo "Hello, I am trying to test."
-      - pytest dilaytest.py
